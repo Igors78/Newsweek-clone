@@ -2,26 +2,28 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
-# Building-with-Backgrounds-and-Gradients
+# The News Week page clone
 > This project is part of Microverse HTML/CSS curriculum
 
 ![screenshot](./img/screenshot.png)
 
-The project is the fourth of the Microverse curriculum HTML/CSS module. 
-Project mirrors the old Apple.com page style with using images as background and linear gradient designed navigation.
+The project is the seventh of the Microverse curriculum HTML/CSS module. 
+Project mirrors the News Week page with the purpose to use Bootstrap where possible. Bootstrap is the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+
+
 See the source page below:
-[Source page Link](https://web.archive.org/web/20140301004610/http://www.apple.com/)
+[Source page Link](https://www.newsweek.com/)
 
 ## Built With
 
 - HTML/CSS/SCSS
 - Fontawesome library
 - Iconify library
-- Colorzilla CSS Gradients Generator
+- Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/Igors78/Building-with-Backgrounds-and-Gradients.git)
+[Live Demo Link]()
 
 ## Getting Started
 
@@ -37,11 +39,11 @@ To get a local copy up and running follow these simple example steps.
 - Open the command line terminal
 ### Install
 - Go to your preferred directory
-- Run [ git clone https://github.com/Arinpe/Building-with-Backgrounds-and-Gradients.git ] command
+- Run [ git clone  ] command
 ### Usage
 - Open index.html file in any modern browser
 ### Run tests
-- Tests passed can be found here (https://github.com/Arinpe/Building-with-Backgrounds-and-Gradients/pulls)
+- Tests passed can be found here ()
 ### Deployment
 - Page deployed through the Github pages service and can be viewed through the Live Demo Link (see above)
 
@@ -64,7 +66,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Arinpe/Building-with-Backgrounds-and-Gradients/issues).
+Feel free to check the [issues page]().
 
 ## Show your support
 
@@ -73,9 +75,9 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Thanks to Colorzilla by making designing easier
+- Thanks to Bootstrap
 - Thanks to stand-up team for raising issues and giving constructive critics out
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](license.txt) licensed.
