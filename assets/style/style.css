@@ -5,5 +5,19 @@ body {
 
 .topnavbar {
   background: #f72210;
+  padding: 10px 0 10px 0;
+}
+
+.topnavright .badge {
+  font-size: 1rem;
+}
+
+.topnavright .iconify {
+  width: 2rem;
+  height: 1.5rem;
+}
+
+.small-text {
+  font-size: 0.8em;
 }
 /*# sourceMappingURL=style.css.map */
