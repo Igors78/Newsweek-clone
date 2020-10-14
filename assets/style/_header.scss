@@ -1,0 +1,61 @@
+.topnavbar {
+  position: relative;
+  background: #f72210;
+  padding: 0 0 5px 0;
+  height: auto;
+}
+
+.tageffect {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 50px;
+  background: #f72210;
+  margin-bottom: -20px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+    border-top: 20px solid #f72210;
+    border-left: 20px solid white;
+    width: 0;
+    z-index: 9999;
+  }
+}
+
+.topnavright {
+  padding-top: 15px;
+
+  .badge,
+  button {
+    font-size: 1.2rem;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 0.8rem;
+    }
+  }
+
+  .iconify {
+    @media only screen and (max-width: 768px) {
+      width: 1rem;
+      height: 1.5rem;
+    }
+
+    width: 2rem;
+    height: 1.5rem;
+  }
+}
+
+.topnavleft {
+  a {
+    padding: 15px 0 10px 15px;
+  }
+
+  p {
+    padding-left: 15px;
+  }
+}
+

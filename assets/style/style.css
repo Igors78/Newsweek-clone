@@ -4,12 +4,47 @@ body {
 }
 
 .topnavbar {
+  position: relative;
   background: #f72210;
-  padding: 10px 0 10px 0;
+  padding: 0 0 5px 0;
+  height: auto;
 }
 
-.topnavright .badge {
-  font-size: 1rem;
+.tageffect {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 50px;
+  background: #f72210;
+  margin-bottom: -20px;
+}
+
+.tageffect:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -20px;
+  border-top: 20px solid #f72210;
+  border-left: 20px solid white;
+  width: 0;
+  z-index: 9999;
+}
+
+.topnavright {
+  padding-top: 15px;
+}
+
+.topnavright .badge,
+.topnavright button {
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .topnavright .badge,
+  .topnavright button {
+    font-size: 0.8rem;
+  }
 }
 
 .topnavright .iconify {
@@ -17,7 +52,18 @@ body {
   height: 1.5rem;
 }
 
-.small-text {
-  font-size: 0.8em;
+@media only screen and (max-width: 768px) {
+  .topnavright .iconify {
+    width: 1rem;
+    height: 1.5rem;
+  }
+}
+
+.topnavleft a {
+  padding: 15px 0 10px 15px;
+}
+
+.topnavleft p {
+  padding-left: 15px;
 }
 /*# sourceMappingURL=style.css.map */
