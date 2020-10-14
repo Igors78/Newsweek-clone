@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 body {
+  width: 100%;
   font-family: "Roboto Condensed", sans-serif;
+  background: #f4f5f6;
 }
 
 .topnavbar {
@@ -31,7 +33,8 @@ body {
 }
 
 .topnavright {
-  padding-top: 17px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .topnavright .badge,
@@ -81,11 +84,11 @@ body {
   font-size: 1.2rem;
 }
 
-.navbarmiddle ul a {
-  padding: 0 0 0 .8vw;
+.navbarmiddle a {
+  padding: 0 0 0 0.8vw;
 }
 
-.navbarmiddle ul a:hover {
+.navbarmiddle a:hover {
   color: #f72210 !important;
 }
 
@@ -95,5 +98,60 @@ body {
 
 .navbarmiddle .iconify {
   margin-top: 7px;
+}
+
+.navbarbottom {
+  min-width: 1190px;
+  padding: 15px 200px 0 0;
+}
+
+.navbarbottom a {
+  padding: 0 0 0 0.8vw;
+}
+
+.navbarbottom a:hover {
+  color: #f72210 !important;
+}
+
+.story {
+  position: relative;
+  background: white;
+}
+
+.story h6 {
+  padding-top: 15px;
+}
+
+.story h5 {
+  padding: 5px 10px;
+  background: rgba(247, 241, 241, 0.336);
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+}
+
+.story a {
+  font-size: 1.2rem;
+}
+
+.story a:hover {
+  -webkit-text-decoration-color: red;
+          text-decoration-color: red;
+}
+
+.story p {
+  font-size: 0.9rem;
+}
+
+section {
+  margin-bottom: 15px;
+}
+
+.autors h6 {
+  padding-left: 15px;
+}
+
+.autors .autor-text {
+  padding-left: 15px;
 }
 /*# sourceMappingURL=style.css.map */

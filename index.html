@@ -25,147 +25,343 @@
     <title>Newsweek clone</title>
   </head>
   <body>
-    <header class="page-header">
-      <div class="container-fluid">
-        <div
-          class="topnavbar row d-flex justify-content-between align-items-center"
-        >
-          <div class="tageffect d-none d-lg-flex"></div>
-          <div class="topnavleft col-3 d-none d-lg-flex flex-column">
-            <a href="#" class="font-weight-bold text-white text-decoration-none"
-              ><i class="fas fa-cloud-sun"></i> 7&deg; Riga, LV
-              <i class="fas fa-chevron-right"></i
-            ></a>
-            <p class="text-white">Tue, Oct 13, 2020</p>
-          </div>
-          <div class="topnavcenter col-4">
-            <a href="#">
-              <img class="img-fluid" src="assets/img/logo.png" alt="logo" />
-            </a>
-          </div>
-          <div class="topnavright col-3 d-flex justify-content-end">
-            <button type="button" class="btn d-md-none text-secondary">
-              <span
-                class="iconify"
-                data-icon="clarity:avatar-solid"
-                data-inline="false"
-              ></span>
-            </button>
-            <button
-              type="button"
-              class="btn text-white font-weight-bold d-md-flex d-none"
-            >
-              LOGIN
-            </button>
-            <button type="button" class="btn">
-              <span class="badge badge-pill badge-warning"
-                >SUBSCRIBE <i class="fas fa-chevron-right"></i
-              ></span>
-            </button>
-            <button type="button" class="btn d-lg-none text-secondary">
-              <span
-                class="iconify"
-                data-icon="fa:bars"
-                data-inline="false"
-              ></span>
-            </button>
-          </div>
+    <header class="page-header container-fluid">
+      <div
+        class="topnavbar row d-flex justify-content-between align-items-center"
+      >
+        <div class="tageffect d-none d-lg-flex"></div>
+        <div class="topnavleft col-3 d-none d-lg-flex flex-column">
+          <a href="#" class="font-weight-bold text-white text-decoration-none"
+            ><i class="fas fa-cloud-sun"></i> 7&deg; Riga, LV
+            <i class="fas fa-chevron-right"></i
+          ></a>
+          <p class="text-white">Tue, Oct 13, 2020</p>
         </div>
-        <div class="navbarmiddle row d-none d-lg-flex">
-          <ul
-            class="col list-unstyled d-flex justify-content-between"
+        <div class="topnavcenter col-4">
+          <a href="#">
+            <img class="img-fluid" src="assets/img/logo.png" alt="logo" />
+          </a>
+        </div>
+        <div class="topnavright col-3 d-flex justify-content-end">
+          <button type="button" class="btn d-md-none text-secondary">
+            <span
+              class="iconify"
+              data-icon="clarity:avatar-solid"
+              data-inline="false"
+            ></span>
+          </button>
+          <button
+            type="button"
+            class="btn text-white font-weight-bold d-md-flex d-none"
           >
-            <li>
-              <a
-                href="#"
-                class="text-decoration-none text-reset font-weight-bold"
-                >U.S.</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-decoration-none text-reset font-weight-bold border-left"
-                >World</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-decoration-none text-reset font-weight-bold border-left"
-                >Business</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-decoration-none text-reset font-weight-bold border-left"
-                >Tech & Science</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-decoration-none text-reset font-weight-bold border-left"
-                >Culture</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-decoration-none text-reset font-weight-bold border-left"
-                >News Geek</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-decoration-none text-reset font-weight-bold border-left"
-                >Sports</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-decoration-none text-reset font-weight-bold border-left"
-                >Health</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-decoration-none text-reset font-weight-bold border-left"
-                >The Debate</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-decoration-none text-reset font-weight-bold border-left"
-                >Vantage</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-decoration-none text-reset font-weight-bold border-left"
-                >Weather</a
-              >
-            </li>
-
-            <li class="d-flex">
-              <input type="text" class="outline-none" placeholder="Search " />
-
-              <span
-                class="iconify"
-                data-icon="bytesize:search"
-                data-inline="false"
-              ></span>
-            </li>
-          </ul>
+            LOGIN
+          </button>
+          <button type="button" class="btn">
+            <span class="badge badge-pill badge-warning"
+              >SUBSCRIBE <i class="fas fa-chevron-right"></i
+            ></span>
+          </button>
+          <button type="button" class="btn d-lg-none text-secondary">
+            <span
+              class="iconify"
+              data-icon="fa:bars"
+              data-inline="false"
+            ></span>
+          </button>
         </div>
       </div>
+      <div class="navbarmiddle row d-none d-lg-flex">
+        <ul class="col list-unstyled d-flex justify-content-between">
+          <li>
+            <a href="#" class="text-decoration-none text-body font-weight-bold"
+              >U.S.</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none text-body font-weight-bold border-left"
+              >World</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none text-body font-weight-bold border-left"
+              >Business</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none text-body font-weight-bold border-left"
+              >Tech & Science</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none text-body font-weight-bold border-left"
+              >Culture</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none text-body font-weight-bold border-left"
+              >News Geek</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none text-body font-weight-bold border-left"
+              >Sports</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none text-body font-weight-bold border-left"
+              >Health</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none text-body font-weight-bold border-left"
+              >The Debate</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none text-body font-weight-bold border-left"
+              >Vantage</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none text-body font-weight-bold border-left"
+              >Weather</a
+            >
+          </li>
+
+          <li class="d-flex">
+            <input type="text" class="outline-none" placeholder="Search " />
+
+            <span
+              class="iconify"
+              data-icon="bytesize:search"
+              data-inline="false"
+            ></span>
+          </li>
+        </ul>
+      </div>
+      <div class="navbarbottom row d-none d-lg-flex border-top border-bottom">
+        <ul
+          class="col list-unstyled d-flex justify-content-between align-items-center"
+        >
+          <li class="font-weight-bold">TRENDING</li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none font-weight-bold text-secondary"
+              >COUNTIES THAT COUNT</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none text-secondary font-weight-bold"
+              >DONALD TRUMP</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none text-secondary font-weight-bold"
+              >JOE BIDEN</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none text-secondary font-weight-bold"
+              >STIMULUS PACKAGE</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none text-secondary font-weight-bold"
+              >CORONAVIRUS</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none text-secondary font-weight-bold"
+              >AMY CONEY BARRETT</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-decoration-none text-secondary font-weight-bold"
+              >2020 ELECTION</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
+    <!-- #region MAIN STORIES-->
+    <main class="page-main container-fluid">
+      <!-- #region MAIN STORIES 1-->
+      <section class="row border-bottom">
+        <article class="story col">
+          <h6 class="text-secondary font-weight-bold">TOP STORY</h6>
+          <div class="card">
+            <img src="assets/img/left1.jpg" class="card-img" alt="cardimg" />
+            <div
+              class="card-img-overlay d-flex justify-content-start align-items-end"
+            >
+              <h5 class="card-title text-danger font-weight-bold">POLITICS</h5>
+            </div>
+          </div>
+          <a href="#" class="font-weight-bold text-body">
+            Trump Trails Biden in Penn., As He Looks to Boost Support Through
+            Rallies
+          </a>
+          <p>
+            The president narrowly won the state in 2016, though his rival is
+            being tipped to reclaim it for the Democrats.
+          </p>
+        </article>
+      </section>
+      <!-- #region MAIN STORIES 2-->
+      <section class="row border-bottom flex-column">
+        <!-- #region MAIN STORIES ARTICLE 1-->
+        <article class="story col">
+          <h6 class="text-secondary font-weight-bold">FEATURED STORIES</h6>
+          <div class="card">
+            <img src="assets/img/left2.jpg" class="card-img" alt="cardimg" />
+            <div
+              class="card-img-overlay d-flex justify-content-start align-items-end"
+            >
+              <h5 class="card-title text-danger font-weight-bold">POLITICS</h5>
+            </div>
+          </div>
+          <a href="#" class="font-weight-bold text-body">
+            What Donald Trump Said at First Rally Since COVID Recovery
+          </a>
+          <p>
+            The coronavirus crisis was a focus for the president in Florida, who
+            defended his actions amid the pandemic.
+          </p>
+        </article>
+        <!-- #region MAIN STORIES ARTICLE 2-->
+        <article class="story col">
+          <div class="card">
+            <img src="assets/img/left4.jpg" class="card-img" alt="cardimg" />
+            <div
+              class="card-img-overlay d-flex justify-content-start align-items-end"
+            >
+              <h5 class="card-title text-danger font-weight-bold">
+                TECH & SCIENCE
+              </h5>
+            </div>
+          </div>
+          <a href="#" class="font-weight-bold text-body">
+            Apple Watch Data Shows the World Got Half As Noisy During Lockdown
+          </a>
+          <p>
+            Researchers obtained more than 500,000 daily noise readings before
+            and during the pandemic, in a study that spanned California,
+            Florida, New York and Texas.
+          </p>
+        </article>
+        <!-- #region MAIN STORIES ARTICLE 3-->
+        <article class="story col">
+          <div class="card">
+            <img src="assets/img/left3.jpg" class="card-img" alt="cardimg" />
+            <div
+              class="card-img-overlay d-flex justify-content-start align-items-end"
+            >
+              <h5 class="card-title text-danger font-weight-bold">U.S.</h5>
+            </div>
+          </div>
+          <a href="#" class="font-weight-bold text-body">
+            U.S.-China Trade Soars, Despite Trump Tariffs
+          </a>
+          <p>
+            Exporters reaped the benefits of record demand for masks and medical
+            supplies and received a boost from China's early reopening of its
+            economy.
+          </p>
+        </article>
+        <!-- #region MAIN STORIES ARTICLE 4-->
+        <article class="story col">
+          <div class="card">
+            <img src="assets/img/left5.jpg" class="card-img" alt="cardimg" />
+            <div
+              class="card-img-overlay d-flex justify-content-start align-items-end"
+            >
+              <h5 class="card-title text-danger font-weight-bold">POLITICS</h5>
+            </div>
+          </div>
+          <a href="#" class="font-weight-bold text-body">
+            Biden Given 8.5-Point Lead From Pollsters That Predicted Trump's
+            2016 Win
+          </a>
+          <p>
+            The Democratic presidential candidate has been given a steady lead
+            in IBD/TIPP polling, coinciding with most other national surveys.
+          </p>
+        </article>
+        <!-- #region MAIN STORIES ARTICLE 5-->
+        <article class="story col">
+          <div class="card">
+            <img src="assets/img/left9.png" class="card-img" alt="cardimg" />
+            <div
+              class="card-img-overlay d-flex justify-content-start align-items-end"
+            >
+              <h5 class="card-title text-danger font-weight-bold">HEALTH</h5>
+            </div>
+          </div>
+          <a href="#" class="font-weight-bold text-body">
+            Fact-check: Does the WHO Now Agree With Donald Trump on Ending
+            Lockdowns?
+          </a>
+          <p>
+            WHO officials have said throughout the pandemic that lockdowns
+            should not be the only approach taken by countries to prevent the
+            spread of the coronavirus.
+          </p>
+        </article>
+      </section>
+      <!-- #region MAIN STORIES 3-->
+      <section class="row border-bottom flex-column autors">
+        <h6 class="text-secondary font-weight-bold">THE DEBATE</h6>
+        <article class="autors-big col d-flex">
+          
+          <img src="assets/img/autor1.png" class="img" alt="cardimg" />
+
+          <div class="autor-text story">
+            <a href="#" class="text-body font-weight-bold"
+              >McConnell's Rush to Confirm Barrett Ignores Crucial Questions of
+              Principle</a
+            >
+            <p class="text-secondary font-weight-bold">BY CLAIRE O. FINKELSTEIN AND RICHARD W. PAINTER</p>
+          </div>
+        </article>
+        <div class="doubleborder">
+          <div class="border"></div>
+          <div class="border"></div>
+        </div>
+      </section>
+    </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

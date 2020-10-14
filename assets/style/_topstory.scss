@@ -1,0 +1,42 @@
+.story {
+  position: relative;
+  background: white;
+
+  h6 {
+    padding-top: 15px;
+  }
+
+  h5 {
+    padding: 5px 10px;
+    background: rgba(247, 241, 241, 0.336);
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+  }
+
+  a {
+    font-size: 1.2rem;
+
+    &:hover {
+      text-decoration-color: red;
+    }
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+section {
+  margin-bottom: 15px;
+}
+
+.autors {
+    h6 {
+        padding-left: 15px;
+    }
+
+    .autor-text {
+        padding-left: 15px;
+    }
+}
