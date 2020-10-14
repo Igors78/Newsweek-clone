@@ -6,7 +6,6 @@ body {
 .topnavbar {
   position: relative;
   background: #f72210;
-  padding: 0 0 5px 0;
   height: auto;
 }
 
@@ -32,7 +31,7 @@ body {
 }
 
 .topnavright {
-  padding-top: 15px;
+  padding-top: 17px;
 }
 
 .topnavright .badge,
@@ -65,5 +64,36 @@ body {
 
 .topnavleft p {
   padding-left: 15px;
+}
+
+.outline-none {
+  outline: none;
+  border: none;
+}
+
+.navbarmiddle {
+  padding-right: 80px;
+}
+
+.navbarmiddle ul {
+  padding-left: 0;
+  padding-top: 12px;
+  font-size: 1.2rem;
+}
+
+.navbarmiddle ul a {
+  padding: 0 0 0 .8vw;
+}
+
+.navbarmiddle ul a:hover {
+  color: #f72210 !important;
+}
+
+.navbarmiddle input {
+  width: 55px;
+}
+
+.navbarmiddle .iconify {
+  margin-top: 7px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,6 @@
 .topnavbar {
   position: relative;
   background: #f72210;
-  padding: 0 0 5px 0;
   height: auto;
 }
 
@@ -27,7 +26,7 @@
 }
 
 .topnavright {
-  padding-top: 15px;
+  padding-top: 17px;
 
   .badge,
   button {
@@ -59,3 +58,33 @@
   }
 }
 
+.outline-none {
+  outline: none;
+  border: none;
+}
+
+.navbarmiddle {
+  ul {
+    padding-left: 0;
+    padding-top: 12px;
+    font-size: 1.2rem;
+
+    a {
+      padding: 0 0 0 .8vw;
+
+      &:hover {
+        color: #f72210 !important;
+      }
+    }
+  }
+
+  padding-right: 80px;
+
+  input {
+    width: 55px;
+  }
+
+  .iconify {
+    margin-top: 7px;
+  }
+}
