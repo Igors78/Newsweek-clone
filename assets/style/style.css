@@ -269,4 +269,8 @@ section {
 .newsletter-bottom button {
   width: 300px;
 }
+
+.footer-logo {
+  max-width: 236px;
+}
 /*# sourceMappingURL=style.css.map */
