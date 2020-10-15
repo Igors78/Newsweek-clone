@@ -27,7 +27,7 @@ body {
   bottom: 0;
   left: -20px;
   border-top: 20px solid #f72210;
-  border-left: 20px solid white;
+  border-left: 20px solid transparent;
   width: 0;
   z-index: 9999;
 }
@@ -116,6 +116,7 @@ body {
 .story {
   position: relative;
   background: white;
+  margin-top: 15px;
 }
 
 .story h6 {
@@ -147,11 +148,54 @@ section {
   margin-bottom: 15px;
 }
 
-.autors h6 {
-  padding-left: 15px;
+.autor-text {
+  margin-left: 15px;
 }
 
-.autors .autor-text {
-  padding-left: 15px;
+.autors {
+  border-top: 3px solid #c0b7b7;
+  margin: 0 10px 0 10px;
+  padding-top: 15px;
+}
+
+.autors img {
+  width: 60px;
+  height: 60px;
+}
+
+.border {
+  border-top: 1px solid #c0b7b7;
+  margin: 1px 0 0 0;
+}
+
+.autors-big {
+  padding-top: 15px;
+}
+
+.doubleborder {
+  position: relative;
+  margin: 15px 0;
+}
+
+.doubleborder .vs {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius: 50%;
+  left: 50%;
+  top: -170%;
+  font-size: 0.9em;
+}
+
+.autor-item img {
+  width: 60px;
+  height: 60px;
+}
+
+.smallimg {
+  width: 95px;
+  height: 95px;
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */
