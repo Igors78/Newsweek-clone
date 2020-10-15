@@ -236,4 +236,37 @@ section {
 .medium-img {
   max-width: 258px;
 }
+
+.subscribe .imagecollage {
+  height: 300px;
+}
+
+.subscribe img {
+  width: 170px;
+  height: 230px;
+}
+
+.subscribe .subscribe1 {
+  left: 30%;
+  top: 1rem;
+}
+
+.subscribe .subscribe2 {
+  left: 35%;
+  top: 3rem;
+}
+
+.subscribe h5 {
+  top: 13rem;
+  left: 2rem;
+}
+
+.newsletterimg {
+  width: 100%;
+  height: 200px;
+}
+
+.newsletter-bottom button {
+  width: 300px;
+}
 /*# sourceMappingURL=style.css.map */
