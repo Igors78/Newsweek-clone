@@ -84,3 +84,13 @@ section {
     height: 95px;
     margin-bottom: 15px;
 }
+
+.relative_pos {
+  position: relative;
+}
+
+.story-tag {
+  bottom: 0;
+  left: 0;
+  font-size: 12px;
+}
