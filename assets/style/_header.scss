@@ -13,7 +13,7 @@
   background: #f72210;
   margin-bottom: -20px;
 
-  &:before {
+  &::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -28,6 +28,7 @@
 .topnavright {
   padding-top: 15px;
   padding-bottom: 10px;
+
   .badge,
   button {
     font-size: 1.2rem;
@@ -63,6 +64,19 @@
   border: none;
 }
 
+.navbarbottom {
+  min-width: 1190px;
+  padding: 15px 200px 0 0;
+
+  a {
+    padding: 0 0 0 0.8vw;
+
+    &:hover {
+      color: #f72210 !important;
+    }
+  }
+}
+
 .navbarmiddle {
   ul {
     padding-left: 0;
@@ -86,18 +100,5 @@
 
   .iconify {
     margin-top: 7px;
-  }
-}
-
-.navbarbottom {
-  min-width: 1190px;
-  padding: 15px 200px 0 0;
-
-  a {
-    padding: 0 0 0 0.8vw;
-
-    &:hover {
-      color: #f72210 !important;
-    }
   }
 }

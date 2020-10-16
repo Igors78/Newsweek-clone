@@ -21,7 +21,7 @@ body {
   margin-bottom: -20px;
 }
 
-.tageffect:before {
+.tageffect::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -74,6 +74,19 @@ body {
   border: none;
 }
 
+.navbarbottom {
+  min-width: 1190px;
+  padding: 15px 200px 0 0;
+}
+
+.navbarbottom a {
+  padding: 0 0 0 0.8vw;
+}
+
+.navbarbottom a:hover {
+  color: #f72210 !important;
+}
+
 .navbarmiddle {
   padding-right: 80px;
 }
@@ -98,19 +111,6 @@ body {
 
 .navbarmiddle .iconify {
   margin-top: 7px;
-}
-
-.navbarbottom {
-  min-width: 1190px;
-  padding: 15px 200px 0 0;
-}
-
-.navbarbottom a {
-  padding: 0 0 0 0.8vw;
-}
-
-.navbarbottom a:hover {
-  color: #f72210 !important;
 }
 
 .story {
@@ -239,7 +239,7 @@ section {
 }
 
 .subscribe .imagecollage {
-  height: 300px;
+  height: 280px;
 }
 
 .subscribe img {
@@ -249,17 +249,16 @@ section {
 
 .subscribe .subscribe1 {
   left: 30%;
-  top: 1rem;
+  top: 2rem;
 }
 
 .subscribe .subscribe2 {
-  left: 35%;
-  top: 3rem;
+  left: 45%;
+  top: 3.5rem;
 }
 
 .subscribe h5 {
-  top: 13rem;
-  left: 2rem;
+  color: black;
 }
 
 .newsletterimg {
