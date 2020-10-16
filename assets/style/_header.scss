@@ -65,11 +65,12 @@
 }
 
 .navbarbottom {
-  min-width: 1190px;
-  padding: 15px 200px 0 0;
+  // min-width: 1190px;
+  padding: 15px 0 0 0;
+  overflow: hidden;
 
   a {
-    padding: 0 0 0 0.8vw;
+    padding: 0 0 0 0vw;
 
     &:hover {
       color: #f72210 !important;

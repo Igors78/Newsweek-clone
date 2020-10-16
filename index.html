@@ -1052,7 +1052,7 @@
           in the magazine
         </h5>
         <!-- magazine cover -->
-        <div class="row flex-column flex-md-row border-top">
+        <div class="row flex-column flex-md-row border-top bg-info">
           <article class="story col col-md-3">
             <div class="card">
               <img
@@ -1251,7 +1251,7 @@
           <span class="n-icon"></span>
           editor' pick
         </h5>
-        <div class="row flex-column flex-md-row border-top">
+        <div class="d-flex flex-wrap flex-column flex-md-row border-top bg-danger">
           <!-- #region MAIN STORIES ARTICLE 1-->
           <article class="story col col-md-6 col-lg-3">
             <div class="card">
@@ -1983,10 +1983,10 @@
 
       <div class="row flex-column flex-lg-row">
         <!-- SUBSCRIBE SECTION -->
-        <section class="col col-lg-8 border-bottom flex-column p-3">
+        <section class="col col-lg-7 border-bottom flex-column p-3 ">
           <h6 class="text-danger font-weight-bold">SUBSCRIBE</h6>
-          <article class="col subscribe">
-            <div class="imagecollage position-relative">
+          <article class="col subscribe d-md-flex flex-md-row align-items-center">
+            <div class="imagecollage position-relative col-md-6">
               <img
                 class="position-absolute subscribe1"
                 src="assets/img/cover-october-02-2020.jpg"
@@ -1997,46 +1997,50 @@
                 src="assets/img/bottom1.jpg"
                 alt="subscribe"
               />
-            </div>
-            <div class="subscribe-text mt-n5">
-              <h5 class="font-weight-bold text-center d-block">
+              <h5 class="d-md-none position-absolute font-weight-bold text-center d-block">
                 In-depth Stories You Don't See Elsewhere About Topics You Want
                 to Read!
               </h5>
-              <p class="text-center">All Access + Weekly Delivery.</p>
-              <p class="text-center">
+            </div>
+            <div class="subscribe-text mt-3 text-center text-md-left col-md-6">
+              <h5 class="d-none d-md-block font-weight-bold ">
+                In-depth Stories You Don't See Elsewhere About Topics You Want
+                to Read!
+              </h5>
+              <p class="m-md-0">All Access + Weekly Delivery.</p>
+              <p class="">
                 Choose A Membership That's Perfect for You!
               </p>
-              <button type="button" class="btn btn-danger d-block mx-auto">
+              <button type="button" class="btn btn-danger d-block mx-auto mx-md-0">
                 SUBSCRIBE <i class="fas fa-chevron-right"></i>
               </button>
             </div>
           </article>
         </section>
         <!-- NEWSLETTER SECTION -->
-        <section class="col col-lg-4 border-bottom flex-column p-3">
-          <article class="newsletter-bottom col border">
-            <h6 class="text-danger font-weight-bold p-2">NEWSLETTER</h6>
+        <section class="col col-lg-5 border-bottom flex-column p-3 ">
+          <h6 class="text-danger font-weight-bold p-2">NEWSLETTER</h6>
+          <article class="newsletter-bottom col border d-md-flex flex-md-row">
             <img
-              class="newsletterimg"
+              class="newsletterimg col-md-6"
               src="assets/img/starting5-homepage.png"
               alt="newsletter"
             />
-            <h5 class="text-center font-weight-bold p-3">THE STARTING 5</h5>
-            <p class="text-center">
-              See why nearly a quarter of a million subscribers begin their day
-              with the Starting 5.
-            </p>
-            <div class="input-group mb-3">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Email address"
-              />
-              <div class="input-group-append">
-                <button type="button" class="btn btn-danger px-5">
-                  FREE SIGN UP <i class="ml-2 fas fa-chevron-right"></i>
-                </button>
+            <div class="col-md-5">
+              <h5 class="text-center font-weight-bold p-3">THE STARTING 5</h5>
+              <p class="text-center">
+                See why nearly a quarter of a million subscribers begin their day
+                with the Starting 5.
+              </p>
+              <div class="mb-3 d-flex flex-row flex-lg-column">
+                <input
+                  type="text"
+                  class="form-control col-8 col-lg"
+                  placeholder="Email address"
+                />
+                <div class="input-group-append col-lg-12 mx-lg-auto my-lg-2">
+                  <input type="submit" class="btn btn-danger px-5 px-lg-3" value="FREE SIGN UP &gt;">
+                </div>
               </div>
             </div>
           </article>

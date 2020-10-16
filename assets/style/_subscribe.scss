@@ -1,6 +1,7 @@
 .subscribe {
   .imagecollage {
     height: 280px;
+
   }
 
   img {
@@ -20,16 +21,17 @@
 
   h5 {
     color: black;
+    bottom: 0;
   }
 }
 
 .newsletterimg {
   width: 100%;
-  height: 200px;
+  min-height: 200px;
 }
 
 .newsletter-bottom {
   button {
-    width: 300px;
+    max-width: 300px;
   }
 }
