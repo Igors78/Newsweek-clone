@@ -248,12 +248,12 @@ section {
 }
 
 .subscribe .subscribe1 {
-  left: 30%;
+  left: 25%;
   top: 2rem;
 }
 
 .subscribe .subscribe2 {
-  left: 45%;
+  left: 40%;
   top: 3.5rem;
 }
 
@@ -265,10 +265,6 @@ section {
 .newsletterimg {
   width: 100%;
   min-height: 200px;
-}
-
-.newsletter-bottom button {
-  max-width: 300px;
 }
 
 .footer-logo {
