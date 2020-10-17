@@ -32,6 +32,14 @@ body {
   z-index: 9999;
 }
 
+.page-header a {
+  padding: 0 0 0 0.8vw;
+}
+
+.page-header a:hover {
+  color: #f72210 !important;
+}
+
 .topnavright {
   padding-top: 15px;
   padding-bottom: 10px;
@@ -74,21 +82,8 @@ body {
   border: none;
 }
 
-.navbarbottom {
-  padding: 15px 0 0 0;
-  overflow: hidden;
-}
-
-.navbarbottom a {
-  padding: 0 0 0 0vw;
-}
-
-.navbarbottom a:hover {
-  color: #f72210 !important;
-}
-
 .navbarmiddle {
-  padding-right: 80px;
+  padding-right: 70px;
 }
 
 .navbarmiddle ul {
@@ -97,20 +92,17 @@ body {
   font-size: 1.2rem;
 }
 
-.navbarmiddle a {
-  padding: 0 0 0 0.8vw;
-}
-
-.navbarmiddle a:hover {
-  color: #f72210 !important;
-}
-
 .navbarmiddle input {
   width: 55px;
 }
 
 .navbarmiddle .iconify {
   margin-top: 7px;
+}
+
+.navbarbottom {
+  padding: 15px 0 0 0;
+  overflow: hidden;
 }
 
 .story {

@@ -25,6 +25,16 @@
   }
 }
 
+.page-header {
+  a {
+    padding: 0 0 0 0.8vw;
+
+    &:hover {
+      color: #f72210 !important;
+    }
+  }
+}
+
 .topnavright {
   padding-top: 15px;
   padding-bottom: 10px;
@@ -71,15 +81,7 @@
     font-size: 1.2rem;
   }
 
-  a {
-    padding: 0 0 0 0.8vw;
-
-    &:hover {
-      color: #f72210 !important;
-    }
-  }
-
-  padding-right: 80px;
+  padding-right: 70px;
 
   input {
     width: 55px;
@@ -93,12 +95,4 @@
 .navbarbottom {
   padding: 15px 0 0 0;
   overflow: hidden;
-
-  a {
-    padding: 0;
-
-    &:hover {
-      color: #f72210 !important;
-    }
-  }
 }
