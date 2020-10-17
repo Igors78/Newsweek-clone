@@ -36,9 +36,6 @@
 }
 
 .topnavright {
-  padding-top: 15px;
-  padding-bottom: 10px;
-
   .badge,
   button {
     font-size: 1.2rem;
@@ -59,11 +56,6 @@
   }
 }
 
-.outline-none {
-  outline: none;
-  border: none;
-}
-
 .navbarmiddle {
   ul {
     padding-left: 0;
@@ -82,3 +74,7 @@
   }
 }
 
+.outline-none {
+  outline: none;
+  border: none;
+}

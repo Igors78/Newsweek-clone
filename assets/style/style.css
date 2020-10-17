@@ -40,11 +40,6 @@ body {
   color: #f72210 !important;
 }
 
-.topnavright {
-  padding-top: 15px;
-  padding-bottom: 10px;
-}
-
 .topnavright .badge,
 .topnavright button {
   font-size: 1.2rem;
@@ -69,11 +64,6 @@ body {
   }
 }
 
-.outline-none {
-  outline: none;
-  border: none;
-}
-
 .navbarmiddle {
   padding-right: 70px;
 }
@@ -90,6 +80,11 @@ body {
 
 .navbarmiddle .iconify {
   margin-top: 7px;
+}
+
+.outline-none {
+  outline: none;
+  border: none;
 }
 
 .story {
