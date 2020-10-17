@@ -69,14 +69,6 @@ body {
   }
 }
 
-.topnavleft a {
-  padding: 15px 0 10px 15px;
-}
-
-.topnavleft p {
-  padding-left: 15px;
-}
-
 .outline-none {
   outline: none;
   border: none;
