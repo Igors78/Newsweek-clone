@@ -92,11 +92,6 @@ body {
   margin-top: 7px;
 }
 
-.navbarbottom {
-  padding: 15px 0 0 0;
-  overflow: hidden;
-}
-
 .story {
   position: relative;
   background: white;
@@ -190,10 +185,6 @@ body {
 .medium-img {
   width: 50%;
   max-width: 258px;
-}
-
-.clear-both {
-  clear: both;
 }
 
 .subscribe .imagecollage {
