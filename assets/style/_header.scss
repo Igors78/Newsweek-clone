@@ -64,20 +64,6 @@
   border: none;
 }
 
-.navbarbottom {
-  // min-width: 1190px;
-  padding: 15px 0 0 0;
-  overflow: hidden;
-
-  a {
-    padding: 0 0 0 0vw;
-
-    &:hover {
-      color: #f72210 !important;
-    }
-  }
-}
-
 .navbarmiddle {
   ul {
     padding-left: 0;
@@ -101,5 +87,18 @@
 
   .iconify {
     margin-top: 7px;
+  }
+}
+
+.navbarbottom {
+  padding: 15px 0 0 0;
+  overflow: hidden;
+
+  a {
+    padding: 0;
+
+    &:hover {
+      color: #f72210 !important;
+    }
   }
 }
