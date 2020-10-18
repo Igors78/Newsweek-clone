@@ -32,12 +32,22 @@ body {
   z-index: 9999;
 }
 
-.page-header a {
+.navbarmiddle a {
   padding: 0 0 0 0.8vw;
+  color: black;
 }
 
-.page-header a:hover {
-  color: #f72210 !important;
+.navbarmiddle a:hover {
+  color: #f72210;
+}
+
+.navbarbottom a {
+  padding: 0 0 0 0.8vw;
+  color: grey;
+}
+
+.navbarbottom a:hover {
+  color: #f72210;
 }
 
 .topnavright .badge,
