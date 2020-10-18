@@ -1,0 +1,88 @@
+.topnavbar {
+  position: relative;
+  background: #f72210;
+  height: auto;
+}
+
+.tageffect {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 50px;
+  background: #f72210;
+  margin-bottom: -20px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+    border-top: 20px solid #f72210;
+    border-left: 20px solid transparent;
+    width: 0;
+    z-index: 9999;
+  }
+}
+
+.bottomlink {
+  padding: 0 0 0 0.8vw;
+  color: grey;
+
+  &:hover {
+    color: #f72210;
+  }
+}
+
+.topnavright {
+  .badge,
+  button {
+    font-size: 1.2rem;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 0.8rem;
+    }
+  }
+
+  .iconify {
+    @media only screen and (max-width: 768px) {
+      width: 1rem;
+      height: 1.5rem;
+    }
+
+    width: 2rem;
+    height: 1.5rem;
+  }
+}
+
+.navbarmiddle {
+  ul {
+    padding-left: 0;
+    padding-top: 12px;
+    font-size: 1.2rem;
+  }
+
+  padding-right: 70px;
+
+  input {
+    width: 55px;
+  }
+
+  .iconify {
+    margin-top: 7px;
+  }
+
+  a {
+    padding: 0 0 0 0.8vw;
+    color: black;
+
+    &:hover {
+      color: #f72210;
+    }
+  }
+}
+
+.outline-none {
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,82 @@
+.story {
+  position: relative;
+  background: white;
+
+  h5 {
+    background: rgba(247, 241, 241, 0.336);
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+  }
+
+  a {
+    font-size: 1rem;
+
+    &:hover {
+      text-decoration-color: red;
+    }
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+.debate {
+  border: 3px solid grey;
+  border-left: none;
+  border-right: none;
+}
+
+.border {
+  border-top: 1px solid rgb(192, 183, 183);
+  margin: 1px 0 0 0;
+}
+
+.doubleborder {
+  position: relative;
+  margin: 20px 0;
+
+  .vs {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+    left: 50%;
+    top: -10px;
+    font-size: 0.9em;
+  }
+}
+
+.autor-item {
+  img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.smallimg {
+  width: 95px;
+  height: 95px;
+}
+
+.relative_pos {
+  position: relative;
+}
+
+.story-tag {
+  bottom: 0;
+  left: 0;
+  font-size: 12px;
+}
+
+.stickybot {
+  position: sticky;
+  top: 0;
+}
+
+.middle {
+  height: auto;
+  overflow: scroll;
+}
