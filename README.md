@@ -58,9 +58,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Misori Simon**
 
-- GitHub: [@](https://github.com/)
-- Twitter: [@](https://twitter.com/_)
-- LinkedIn: [](https://www.linkedin.com/)
+- GitHub: [@Misori-simon](https://github.com/Misori-simon)
+- Twitter: [@misori_simon](https://twitter.com/misori_simon)
+- LinkedIn: [@misori-simon](https://www.linkedin.com/in/misori-simon-05906219b/)
 
 ## 🤝 Contributing
 
