@@ -159,6 +159,17 @@ body {
   font-size: 12px;
 }
 
+.stickybot {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.middle {
+  height: auto;
+  overflow: scroll;
+}
+
 .newsletter {
   max-width: 300px;
 }

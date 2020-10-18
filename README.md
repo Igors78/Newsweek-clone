@@ -5,7 +5,7 @@
 # The News Week page clone
 > This project is part of Microverse HTML/CSS curriculum
 
-![screenshot](./img/screenshot.png)
+![screenshot](./assets/img/screenshot.png)
 
 The project is the seventh of the Microverse curriculum HTML/CSS module. 
 Project mirrors the News Week page with the purpose to use Bootstrap where possible. Bootstrap is the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
@@ -23,7 +23,7 @@ See the source page below:
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://igors78.github.io/Newsweek-clone/)
 
 ## Getting Started
 
@@ -39,11 +39,11 @@ To get a local copy up and running follow these simple example steps.
 - Open the command line terminal
 ### Install
 - Go to your preferred directory
-- Run [ git clone  ] command
+- Run [ git clone https://github.com/Igors78/Newsweek-clone.git] command
 ### Usage
 - Open index.html file in any modern browser
 ### Run tests
-- Tests passed can be found here ()
+- Tests passed can be found here (https://github.com/Igors78/Newsweek-clone/pulls)
 ### Deployment
 - Page deployed through the Github pages service and can be viewed through the Live Demo Link (see above)
 
@@ -56,17 +56,17 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@oleinikovs](https://twitter.com/oleinikovs)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
 
-👤 **Adesuyi Adetola**
+👤 **Misori Simon**
 
-- GitHub: [@Arinpe](https://github.com/Arinpe)
-- Twitter: [@_detola_](https://twitter.com/_detola_)
-- LinkedIn: [Adesuyi Adetola](https://www.linkedin.com/in/adesuyi-adetola-7b4451111/)
+- GitHub: [@](https://github.com/)
+- Twitter: [@](https://twitter.com/_)
+- LinkedIn: [](https://www.linkedin.com/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Igors78/Newsweek-clone/issues).
 
 ## Show your support
 
