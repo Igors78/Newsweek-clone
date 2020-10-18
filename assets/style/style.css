@@ -32,12 +32,12 @@ body {
   z-index: 9999;
 }
 
-.navbarbottom a {
+.bottomlink {
   padding: 0 0 0 0.8vw;
   color: grey;
 }
 
-.navbarbottom a:hover {
+.bottomlink:hover {
   color: #f72210;
 }
 
